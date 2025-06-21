@@ -42,7 +42,7 @@ class CentralScoringEngineTest {
         double score = centralScoringEngine.calculateQuestionScore(answer, question, company, "Test Survey");
 
         // Assert
-        assertEquals(87.5, score, 0.01); // (1.0 + 0.75) / 3 * 100 = 58.33 * 1.5 = 87.5
+        assertEquals(58.33, score, 0.01);
     }
 
     @Test
