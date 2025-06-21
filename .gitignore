@@ -76,4 +76,7 @@ Desktop.ini
 application.properties
 application.yml
 application-*.properties
-application-*.yml 
+application-*.yml
+
+# Docker
+mongodb_data/ 
